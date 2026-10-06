@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="200dp"
+    android:height="120dp"
+    android:viewportWidth="200"
+    android:viewportHeight="120">
+    <!-- Royal Stage Crimson Background -->
+    <path
+        android:pathData="M0,0h200v120h-200z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="200"
+                android:endY="120"
+                android:type="linear">
+                <item android:color="#4A0E17" android:offset="0.0" />
+                <item android:color="#880E4F" android:offset="0.6" />
+                <item android:color="#AD1457" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Theatre Stage Curtains (पर्दा) -->
+    <path
+        android:fillColor="#880E4F"
+        android:pathData="M0,0 C30,40 50,0 70,0 C90,40 110,0 130,0 C150,40 170,0 200,0 L200,30 L0,30 Z" />
+
+    <!-- Traditional Bhojpuri Dholak (ढोलक) -->
+    <path
+        android:fillColor="#E65100"
+        android:pathData="M60,45 C50,45 45,55 45,70 C45,85 50,95 60,95 L110,95 C120,95 125,85 125,70 C125,55 120,45 110,45 Z" />
+    <!-- Dholak rim rings -->
+    <path
+        android:fillColor="#FFF8E1"
+        android:pathData="M45,70 A10,25 0 1,0 45,70.1 Z" />
+    <path
+        android:fillColor="#3E2723"
+        android:pathData="M45,70 A7,18 0 1,0 45,70.1 Z" />
+    <path
+        android:fillColor="#FFF8E1"
+        android:pathData="M125,70 A8,25 0 1,0 125,70.1 Z" />
+    <!-- Dholak tuning rope laces -->
+    <path
+        android:strokeColor="#FFF9C4"
+        android:strokeWidth="1.5"
+        android:pathData="M50,55 L85,95 M85,45 L120,85 M50,85 L85,45 M85,95 L120,55" />
+
+    <!-- Musical Notes floating up -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M145,45 A6,6 0 1,0 145,57 A6,6 0 1,0 145,45 Z" />
+    <path
+        android:strokeColor="#FFD54F"
+        android:strokeWidth="2.5"
+        android:pathData="M151,45 L151,25 L165,22 L165,38" />
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M159,38 A5,5 0 1,0 159,48 A5,5 0 1,0 159,38 Z" />
+
+    <!-- Sparkles of dramatic art -->
+    <path
+        android:fillColor="#FFE082"
+        android:pathData="M175,60 L177,65 L182,67 L177,69 L175,74 L173,69 L168,67 L173,65 Z" />
+</vector>

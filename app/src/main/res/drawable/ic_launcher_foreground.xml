@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Glow base -->
+    <path
+        android:fillColor="#33FFD54F"
+        android:pathData="M54,28 A26,26 0 1,0 54,80 A26,26 0 1,0 54,28 Z" />
+
+    <!-- Open Book base (learning symbol) -->
+    <path
+        android:fillColor="#FFF8E1"
+        android:pathData="M28,68 C36,65 46,65 54,69 C62,65 72,65 80,68 L80,74 C72,71 62,71 54,75 C46,71 36,71 28,74 Z" />
+    <path
+        android:fillColor="#FFE082"
+        android:pathData="M52,69 L52,75 L54,75 L56,75 L56,69 Z" />
+
+    <!-- Stylized Devanagari 'भ' character emblem in golden white -->
+    <!-- Top shirorekha (horizontal bar) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M38,32 L70,32 C71.5,32 72,33 72,34 C72,35 71.5,36 70,36 L38,36 C36.5,36 36,35 36,34 C36,33 36.5,32 38,32 Z" />
+    <!-- Vertical right stem of 'भ' -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M64,34 L68,34 L68,64 L64,64 Z" />
+    <!-- Upper loop and left body of 'भ' -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M43,34 C41,34 39,36 39,38 C39,41 42,43 45,43 L48,43 C50.5,43 52,45 52,47.5 L52,53 C52,55.5 50,57 47.5,57 L44,57 C42,57 41,56 41,54.5 C41,53.5 42,52.5 43.5,52.5 L46,52.5 C47,52.5 47.5,52 47.5,51 L47.5,47 C47.5,46 47,45.5 46,45.5 L44,45.5 C39,45.5 35,42 35,37.5 C35,33.5 38.5,31 43,31 C44.5,31 46,31.5 47,32.5 L45,34 Z" />
+    <!-- Connecting middle arm of 'भ' to the right stem -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M47,53 L66,53 L66,57 L47,57 Z" />
+
+    <!-- Sparkle / Star of Knowledge top right -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M73,26 L74.5,29.5 L78,31 L74.5,32.5 L73,36 L71.5,32.5 L68,31 L71.5,29.5 Z" />
+</vector>

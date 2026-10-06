@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="200dp"
+    android:height="120dp"
+    android:viewportWidth="200"
+    android:viewportHeight="120">
+    <!-- Deep Vintage Background Gradient -->
+    <path
+        android:pathData="M0,0h200v120h-200z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="200"
+                android:endY="120"
+                android:type="linear">
+                <item android:color="#3E2723" android:offset="0.0" />
+                <item android:color="#5D4037" android:offset="0.6" />
+                <item android:color="#795548" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Ancient Manuscript Scroll (हस्तलिखित पांडुलिपि) -->
+    <path
+        android:fillColor="#EFEBE9"
+        android:pathData="M25,25 C25,20 175,20 175,25 L175,95 C175,100 25,100 25,95 Z" />
+    <path
+        android:fillColor="#D7CCC8"
+        android:pathData="M20,20 C15,20 15,100 20,100 C25,100 25,20 20,20 Z" />
+    <path
+        android:fillColor="#D7CCC8"
+        android:pathData="M180,20 C175,20 175,100 180,100 C185,100 185,20 180,20 Z" />
+
+    <!-- Script Text Lines & Devanagari/Kaithi 'भ' symbol -->
+    <!-- Stylized antique Kaithi 'भ' in dark ink -->
+    <path
+        android:fillColor="#4E342E"
+        android:pathData="M40,38 L80,38 L80,42 L40,42 Z" />
+    <path
+        android:fillColor="#4E342E"
+        android:pathData="M70,40 L75,40 L75,80 L70,80 Z" />
+    <path
+        android:fillColor="#4E342E"
+        android:pathData="M48,40 C44,40 42,43 42,47 C42,51 46,54 50,54 L55,54 C58,54 60,57 60,60 L60,67 C60,70 58,72 55,72 L50,72 C48,72 46,70 46,68 L42,68 C42,73 45,76 50,76 L55,76 C62,76 66,72 66,66 L66,61 C66,56 62,53 58,52 L54,52 C50,52 48,50 48,47 C48,44 50,42 53,42 L58,42 L58,38 Z" />
+    <path
+        android:fillColor="#4E342E"
+        android:pathData="M55,65 L73,65 L73,70 L55,70 Z" />
+
+    <!-- Text Lines representing historical treaties & literature -->
+    <path
+        android:strokeColor="#8D6E63"
+        android:strokeWidth="2.5"
+        android:pathData="M92,38 L160,38 M92,48 L160,48 M92,58 L155,58 M92,68 L160,68 M92,78 L145,78" />
+
+    <!-- Traditional Feather Quill (कलम) -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M150,22 C145,35 130,65 110,85 L106,88 L112,85 C132,65 147,35 152,22 Z" />
+    <path
+        android:fillColor="#FFB300"
+        android:pathData="M152,22 C158,15 168,12 172,12 C168,20 162,28 152,34 Z" />
+
+    <!-- Royal Wax Seal / Mudra (मुहर) bottom right -->
+    <path
+        android:fillColor="#B71C1C"
+        android:pathData="M155,75 A14,14 0 1,0 155,103 A14,14 0 1,0 155,75 Z" />
+    <path
+        android:strokeColor="#FFCDD2"
+        android:strokeWidth="1.2"
+        android:fillColor="#00000000"
+        android:pathData="M155,78 A11,11 0 1,0 155,100 A11,11 0 1,0 155,78 Z" />
+</vector>

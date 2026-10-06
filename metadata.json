@@ -1,0 +1,6 @@
+{
+  "name": "Bhojpuri Bhasa",
+  "description": "Interactive Bhojpuri language learning app with rich lessons, audio pronunciation, quizzes, flashcards, trilingual dictionary (Bhojpuri, Nepali, English), grammar rules, and cultural proverbs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
